@@ -1,0 +1,119 @@
+<style>
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 30px; /* Sesuaikan tinggi footer */
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+       
+        nav {
+            background-color: #01c8ff;
+            padding: 1em;
+        }
+
+        nav a {
+            color: #000000;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #ffffff;
+        }
+       
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 1em;
+            margin-bottom: 100px; /* Menambahkan margin bawah yang sesuai dengan tinggi footer */
+        }
+        
+        section {
+            flex: 2;
+            margin-right: 1em;
+            background-color: chocolate; /* Ganti warna latar belakang dengan warna yang diinginkan */
+            padding: 1em; /* Menambahkan padding agar kontennya tidak terlalu dekat dengan batas section */
+        }
+        
+            aside {
+    flex: 1;
+    background-color: #0080ff;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid #b0b9cb; /* Warna border disesuaikan dengan background h2 */
+}
+
+aside p {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.5em;
+    background-color: whitesmoke;
+}
+        @media screen and (max-width: 600px) {
+            main {
+                flex-direction: column;
+            }
+            section {
+                margin-right: 0;
+            }
+        }
+        aside h2 {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #b0b9cb; 
+    color: #000000; 
+    padding: 0.5em; 
+}
+aside p {
+    font-family:'Times New Roman', Times, serif;
+    padding: 0.5em; 
+}
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Sesuaikan lebar maksimum formulir */
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+input, select {
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #01c8ff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0080ff;
+}
+            </style>
